@@ -1,0 +1,14 @@
+import java.util.*;
+public class reverse {
+	public static void main(String[]args) {
+		String str;
+		StringBuilder s=new StringBuilder();
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("enter the string:");
+		str=scanner.nextLine();
+		s.append(str);
+		s.reverse();
+		System.out.println(s);
+	}
+
+}
